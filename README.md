@@ -1,0 +1,4 @@
+Curriculumtable
+===============
+
+nothing more
