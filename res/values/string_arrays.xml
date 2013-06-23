@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_weeks">
+    	<item>星期日</item>
+    	<item>星期一</item>
+    	<item>星期二</item>
+    	<item>星期三</item>
+    	<item>星期四</item>
+    	<item>星期五</item>
+    	<item>星期六</item>
+    </string-array>
+    <string-array name="class_remind_time">
+        <item>不提醒</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>15分钟</item>
+        <item>20分钟</item>
+        <item>25分钟</item>
+        <item>30分钟</item>
+        <item>45分钟</item>
+    </string-array>
+    <string-array name="auto_mute_mode" >
+        <item >静音</item>
+        <item >震动</item>
+    </string-array>
+    <string-array name="auto_mute_value">
+        <item >mute</item>
+        <item >vibrate</item>
+        
+    </string-array>
+    
+    <string-array name="dropdownlist">
+        <item >每日课程</item>
+        <item >总课表</item>
+        <item >签到记录</item>
+    </string-array>
+</resources>

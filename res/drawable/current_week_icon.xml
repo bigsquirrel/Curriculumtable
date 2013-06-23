@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/current_week_icon_background"
+        android:drawable="@drawable/current_week"
+        android:gravity="center" />
+    <item
+        android:id="@+id/current_week_icon_week"
+        android:drawable="@drawable/current_week"
+        android:gravity="center"/>
+</layer-list>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:graphview="http://schemas.android.com/res/com.kusand.graphview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/stat_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/stat_info"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+    <View
+        android:id="@+id/stat_title_line"
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="2dp"
+		android:background="@color/gray" />
+    <com.kusand.graphview.BarGraphView
+		android:id="@+id/stat_chart_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"       
+        graphview:horizontalLabelColor="#FF0000"
+        graphview:verticalLabelColor="#0000FF"
+        graphview:verticalLabelTextSize="4sp"
+        graphview:titleColor="#00FF00"/>
+    <TextView android:id="@+id/stat_detail_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+    
+    <View
+        android:id="@+id/stat_info_line"
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="2dp"
+		android:background="@color/gray" />
+    
+    
+	<ListView android:id="@+id/stat_item_detail"
+	    android:layout_height="match_parent"
+	    android:layout_width="match_parent"
+	    android:layout_weight="1.5" />
+</LinearLayout>
+</ScrollView>

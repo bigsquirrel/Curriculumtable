@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/action_current_week"
+	    android:title="@string/menu_currentweek"
+	    android:icon="@drawable/current_week_icon"
+	    android:showAsAction="ifRoom"
+	    android:orderInCategory="1" />
+	    
+	<item android:id="@+id/action_add_curriculum"
+	    android:title="@string/menu_add_curriculum"
+	    android:icon="@drawable/add_new"
+	    android:showAsAction="ifRoom"
+		android:orderInCategory="2" />
+	
+	<item android:id="@+id/action_reset_timetable"
+	    android:title="@string/menu_reset"
+	    android:showAsAction="never"
+	    android:orderInCategory="3" />
+	
+	<item android:id="@+id/action_setting"
+	    android:title="@string/menu_setting"
+	    android:showAsAction="never"
+	    android:orderInCategory="4" />
+	
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="last_day">前一天</string>
+    <string name="next_day">后一天</string>
+
+</resources>

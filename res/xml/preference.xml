@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="设置">
+    <PreferenceCategory android:title="基本设置">
+        <Preference android:title="教学楼"
+            android:summary="设置该学期上课的教学楼"
+            android:key="@string/building" />
+        
+        <Preference android:title="科目"
+            android:summary="设置该学期所选的科目"
+            android:key="@string/course" />
+        
+        <Preference android:title="其他设置" 
+            android:summary="该学期周数、当前周、每天课时" 
+            android:key="@string/othset"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="课表设置">
+        <CheckBoxPreference android:title="通知"
+            android:summary="通知栏显示下节课和上课地点信息"
+            android:key="@string/notification"/>
+        <CheckBoxPreference android:title="自动静音"
+            android:summary="上课期间将自动静音设备"
+            android:key="@string/auto_mute" />
+        <ListPreference android:title="自动静音模式"
+            android:entries="@array/auto_mute_mode"
+            android:entryValues="@array/auto_mute_value" 
+            android:key="@string/mute_mode"/>
+        
+        <Preference android:title="上下课时间" 
+            android:summary="每节课时间设置" 
+            android:key="@string/cls_brk_time"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="关于" >
+        <Preference android:title="关于本软件"/>
+    </PreferenceCategory>
+</PreferenceScreen>

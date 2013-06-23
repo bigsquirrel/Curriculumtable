@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <fragment android:name="com.zxl.Timetable.fragment.DayViewFragment"
+        android:id="@+id/dayviewfra"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+    
+    <fragment android:name="com.zxl.Timetable.fragment.TotalViewFragment"
+		android:id="@+id/totalviewfra"        
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+    
+    <fragment android:name="com.zxl.Timetable.fragment.StatViewFragment"
+        android:id="@+id/statviewfra"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"/>
+
+</LinearLayout>

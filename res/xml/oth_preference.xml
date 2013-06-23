@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="其他设置" >
+    
+    <PreferenceCategory android:title="常规">
+        
+        
+        <Preference android:title="周数"
+            android:key="@string/weeks" android:summary="设置本学期周数" />
+    
+        <Preference android:title="当前周"
+            android:key="@string/weekOfTerm" android:summary="当前第几周" />
+        
+        <Preference android:title="课程数量"
+            android:key="@string/classOneday" android:summary="一天的课程数"/>
+        
+        <Preference android:title="课程时间"
+            android:key="@string/classLastMin" android:summary="一节课的时间"/>
+        <Preference android:title="课间休息"
+            android:key="@string/breakMin" android:summary="课间休息时间" />
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="上课时间">
+		<Preference android:title="第一节课" android:key="@string/class1"/>
+		<Preference android:title="第二节课" android:key="@string/class2"/>
+		<Preference android:title="第三节课" android:key="@string/class3"/>
+		<Preference android:title="第四节课" android:key="@string/class4"/>
+		<Preference android:title="第五节课" android:key="@string/class5"/>
+		<Preference android:title="第六节课" android:key="@string/class6"/>
+		<Preference android:title="第七节课" android:key="@string/class7"/>
+		<Preference android:title="第八节课" android:key="@string/class8"/>
+		<Preference android:title="第九节课" android:key="@string/class9"/>
+		<Preference android:title="第十节课" android:key="@string/class10"/>
+		<Preference android:title="第十一节课" android:key="@string/class11"/>
+		<Preference android:title="第十二节课" android:key="@string/class12"/>
+		<Preference android:title="第十三节课" android:key="@string/class13"/>
+		
+    </PreferenceCategory>
+</PreferenceScreen>

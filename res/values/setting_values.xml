@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="settings_base">基本设置</string>
+    <string name="settings_personal">个性设置</string>
+    <string name="background_choose">背景选择</string>
+    <string name="bg_fenghuanghuakai">凤凰花开</string>
+    <string name="bg_glob_green">碧绿水滴</string>
+    <string name="bg_sky_grasses">蓝天绿草</string>
+    <string name="bg_twilight_desert">黄昏沙漠</string>
+    <string name="bg_user_defined">自定义</string>
+    <string name="extensions">扩展功能</string>
+    <string name="settings_backup_restore">备份恢复</string>
+    <string name="backup">备份课表</string>
+    <string name="restore">恢复课表</string>
+    <string name="backup_msg">备份当前数据至SD卡，上次备份将被覆盖，是否继续？</string>
+    <string name="restore_msg">恢复课表数据将会覆盖当前的数据，是否继续？</string>
+    <string name="share">推荐分享</string>
+    <string name="restore_notfound">未找到备份文件</string>
+
+</resources>

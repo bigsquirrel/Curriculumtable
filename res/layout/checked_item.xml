@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp">
+	    <ImageView
+	        android:id="@+id/checked1"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked2"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked3"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked4"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked5"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked6"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked7"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	
+	    <ImageView
+	        android:id="@+id/checked8"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	        android:background="@drawable/not_do_sign" />
+	    
+	    <ImageView
+	        android:id="@+id/checked9"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	        android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked10"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	        android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked11"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	        android:background="@drawable/not_do_sign" />
+	    
+	    <ImageView
+	        android:id="@+id/checked12"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:background="@drawable/not_do_sign" />
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp" >
+	    
+	    <ImageView
+	        android:id="@+id/checked13"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked14"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked15"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	
+	    <ImageView
+	        android:id="@+id/checked16"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	        android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked17"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked18"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked19"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked20"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked21"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked22"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	    <ImageView
+	        android:id="@+id/checked23"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	     	android:background="@drawable/not_do_sign" />
+	
+	    <ImageView
+	        android:id="@+id/checked24"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:background="@drawable/not_do_sign" />
+    </LinearLayout>
+    
+</LinearLayout>

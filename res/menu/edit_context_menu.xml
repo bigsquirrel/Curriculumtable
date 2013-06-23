@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/main_show"
+        android:title="@string/show"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_info_details" />
+    
+    <item android:id="@+id/main_edit"
+        android:title="@string/edit" 
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_edit"/>
+    
+    <item android:id="@+id/main_del"
+        android:title="@string/delete"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete" />
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zxl.Timetable"
+    android:versionCode="16"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".TimetableApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher_2"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait" 
+        android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+
+
+
+        
+        <!-- 主界面 -->
+
+        <activity android:name=".ui.MainActivity"  >  
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 课程表信息设置 -->
+        <activity android:name=".ui.SettingActivity"></activity>   
+        <activity android:name=".ui.OthSettingActivity"></activity>   
+        <!-- 设置教学楼 -->
+        <activity 
+            android:name=".ui.BuildingSetting" >
+        </activity>  
+        <!-- 设置科目 -->
+        <activity android:name=".ui.CourseSetting"></activity>    
+        <!-- 上下课时间设置 -->
+		<activity android:name=".ui.ClassTimeSetting"></activity>   
+		<!-- 添加课程表条目 -->
+        <activity android:name=".ui.CurriculumAdd"></activity>   
+        <!-- 编辑课表 -->
+        <activity android:name=".ui.CurriculumEdit"></activity>   
+        
+        <activity android:name=".ui.CurriculumAllInfo"></activity>
+        
+        <activity android:name=".ui.TotalCurriculumActivity"></activity>
+        <service android:name=".alert.ClassAlertService" ></service>
+        <service android:name=".alert.CheckService"></service>
+        <service android:name=".alert.AudioModeService"></service>
+        <!-- appwidget provider -->
+        <receiver
+            android:name=".appwidget.TableSmallWidgetProvider"    android:label="@string/widget_small_4_1" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cfuture09.universityTimetable.action.TIMETABLE.APPWIDGET_SMALL_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_small_provider_info" />
+        </receiver>
+
+        <receiver android:name=".alert.ClassAlertReceiver">
+            
+        </receiver>
+    </application>
+
+</manifest>

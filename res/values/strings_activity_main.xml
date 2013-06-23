@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_week">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+    <string-array name="array_statu">
+        <item>未结课</item>
+        <item>正在考试</item>
+        <item>已结课</item>
+    </string-array>
+    
+    <string name="main_delete_allCourses">是否需要删除所有科目？</string>
+    <string name="main_delete_allBuildings">是否需要删除所有教学楼？</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_course_set">科目设置</string>
+    <string name="menu_feedback">反馈建议</string>
+    <string name="menu_building_set">教学楼设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_reset">清空课表</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_currentweek">当前周</string>
+    <string name="menu_add_curriculum">添加课程</string>
+    <string name="toast_delete_curriculums_failure">清空课表失败。</string>
+    <string name="toast_delete_course_failure">清空科目失败。</string>
+    <string name="toast_delete_building_failure">清空教学楼失败。</string>
+    <string name="toast_delete_curriculums_success">清空课表成功。</string>
+    <string name="toast_delete_course_success">清空科目成功。</string>
+    <string name="toast_delete_building_success">清空教学楼成功。</string>
+    <string name="show">查看</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="show_app">应用推荐</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_transparent">#80000000</color>
+    <color name="black_tran100">#64000000</color>
+    <color name="black_tran120">#78000000</color>
+    <color name="black_tran140">#8c000000</color>
+    <color name="black_tran160">#a0000000</color>
+    <color name="black_tran180">#b4000000</color>
+    <color name="black_tran200">#c8000000</color>
+    <color name="black">#ff000000</color>
+    <color name="blue_tran160">#a00066cc</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_blue_light">#33B5E5</color>
+    <color name="holo_blue_dark">#0099CC</color>
+    <color name="lighter_gray">#ddd</color>
+    <color name="darker_gray">#aaa</color>
+</resources>
